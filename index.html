@@ -1,0 +1,144 @@
+<!-- ====================== 1. index.html ====================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+        <div> <img src="logo.avif" alt="Company Logo" width="100" height="100"></div>
+           
+            <ul class="nav-links" id="nav-links" >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Mubashir khattak & Mehwish Noreen</span></h1>
+            <h2 id="typewriter"></h2>
+            <p>Full Stack Developer • Karak, Pakistan</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate Full Stack Developer from Lahore with 3 years of experience building modern websites and web applications.</p>
+                    <p>I enjoy turning ideas into clean, functional code. When I'm not coding, I love drinking chai and playing cricket.</p>
+                </div>
+                <div class="about-img">
+                    <img src="mobi.jpg" alt="Muhammad">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-gray">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span>HTML & CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>PHP / Laravel</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>React / Next.js</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>MySQL</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Recent Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://picsum.photos/id/201/400/250" alt="Project 1">
+                    <div class="project-info">
+                        <h3>LahoreMart</h3>
+                        <p>E-commerce website built with Laravel + Tailwind</p>
+                        <a href="#" class="project-link">View Live →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/id/237/400/250" alt="Project 2">
+                    <div class="project-info">
+                        <h3>TaskFlow</h3>
+                        <p>Task management app with React & Firebase</p>
+                        <a href="#" class="project-link">View Live →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/id/870/400/250" alt="Project 3">
+                    <div class="project-info">
+                        <h3>ChaiWala</h3>
+                        <p>Restaurant booking system with Next.js</p>
+                        <a href="#" class="project-link">View Live →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-gray">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Muhammad • Karak, Pakistan</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
